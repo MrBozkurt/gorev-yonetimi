@@ -114,22 +114,3 @@ Bu proje, yapay zeka destekli web geliştirme eğitimi kapsamında oluşturulmu�
 | **Dokümantasyon** | README dosyası ve kod içi yorumlar |
 
 > **Not:** Yapay zeka tarafından üretilen tüm kodlar incelenmiş, test edilmiş ve gerektiğinde düzenlenmiştir.
-
----
-
-## Canlı Yayın (Deployment)
-
-### Netlify ile Yayınlama
-
-1. [Netlify](https://www.netlify.com/) hesabı oluşturun
-2. GitHub deposunu Netlify'a bağlayın
-3. Build ayarları:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-4. "Deploy" butonuna tıklayın
-
-### Vercel ile Yayınlama
-
-1. [Vercel](https://vercel.com/) hesabı oluşturun
-2. GitHub deposunu import edin
-3. Otomatik olarak Vite projesini tanır ve yayınlar
